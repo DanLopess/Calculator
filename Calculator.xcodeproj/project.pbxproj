@@ -17,6 +17,7 @@
 		DD76B20A2597B7F1002B7FF3 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD76B2092597B7F1002B7FF3 /* ResultView.swift */; };
 		DD76B20F2597B83B002B7FF3 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD76B20E2597B83B002B7FF3 /* KeyView.swift */; };
 		DD76B2142597B877002B7FF3 /* KeyPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD76B2132597B877002B7FF3 /* KeyPadView.swift */; };
+		DD76B21A2597C110002B7FF3 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD76B2192597C110002B7FF3 /* CalculatorVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DD76B2092597B7F1002B7FF3 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		DD76B20E2597B83B002B7FF3 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		DD76B2132597B877002B7FF3 /* KeyPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPadView.swift; sourceTree = "<group>"; };
+		DD76B2192597C110002B7FF3 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		DD76B1D02597A36E002B7FF3 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				DD76B2182597C0F9002B7FF3 /* ViewModels */,
 				DD76B2032597B75D002B7FF3 /* Models */,
 				DD76B2022597B751002B7FF3 /* Views */,
 				DD76B1D12597A36E002B7FF3 /* CalculatorApp.swift */,
@@ -156,6 +159,14 @@
 				DD76B2042597B783002B7FF3 /* Key.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		DD76B2182597C0F9002B7FF3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DD76B2192597C110002B7FF3 /* CalculatorVM.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 				DD76B20A2597B7F1002B7FF3 /* ResultView.swift in Sources */,
 				DD76B20F2597B83B002B7FF3 /* KeyView.swift in Sources */,
 				DD76B1D22597A36E002B7FF3 /* CalculatorApp.swift in Sources */,
+				DD76B21A2597C110002B7FF3 /* CalculatorVM.swift in Sources */,
 				DD76B2142597B877002B7FF3 /* KeyPadView.swift in Sources */,
 				DD76B2052597B783002B7FF3 /* Key.swift in Sources */,
 			);
